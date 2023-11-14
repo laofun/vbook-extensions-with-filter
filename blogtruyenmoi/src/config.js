@@ -29,7 +29,8 @@ var excludedCategories = {
     "Soft Yaoi": true,
     "Soft Yuri": true,
     "Tragedy": true,
-    "Yuri": true
+    "Yuri": true,
+    "Trap (Crossdressing)": true,
 };
 let BASE_URL = 'https://blogtruyenmoi.com';
 try {
