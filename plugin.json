@@ -1,30 +1,30 @@
 {
   "metadata": {
     "author": "Laofun",
-    "description": "vbook extensions with filter"
+    "description": "vbook extensions with filter (SFW)"
   },
   "data": [
     {
-      "name": "Blog Truyện Mới",
-      "author": "vBook",
+      "name": "Blog Truyện Mới (SFW)",
+      "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/blogtruyenmoi/plugin.zip",
       "version": 1,
       "type": "comic",
       "locale": "vi_VN",
       "source": "https://blogtruyenmoi.com",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/blogtruyenmoi/icon.png",
-      "description": "Đọc truyện trên trang Blog Truyện Mới"
+      "description": "Đọc truyện trên trang Blog Truyện Mới (SFW)"
     },
     {
-      "name": "Net Truyện",
-      "author": "vBook",
+      "name": "Net Truyện (SFW)",
+      "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/plugin.zip",
       "version": 1,
       "type": "comic",
       "locale": "vi_VN",
       "source": "https://www.nettruyenus.com",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/icon.png",
-      "description": "Đọc truyện trên trang Net Truyện"
+      "description": "Đọc truyện trên trang Net Truyện (SFW)"
     }
   ]
 }
