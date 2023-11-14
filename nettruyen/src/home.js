@@ -11,3 +11,4 @@ function execute() {
         {title: "Bình luận", input: BASE_URL + "/tim-truyen?status=-1&sort=25", script: "gen.js"}
     ]);
 }
+// https://www.nettruyenus.com/tim-truyen-nang-cao?genres=&notgenres=&gender=-1&status=-1&minchapter=1&sort=15

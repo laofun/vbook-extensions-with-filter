@@ -3,11 +3,31 @@ load('config.js');
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
 
-    let response = fetch(url);
+    var response = fetch(url);
     if (response.ok) {
-        let doc = response.html();
+        var doc = response.html();
         doc.select(".fb-page").remove();
-        let author = doc.select("a[href*=/tac-gia/]").first().text();
+
+        // Lấy tất cả các thẻ thể loại
+        var categoryElements = doc.select(".description .category");
+        var isForAdults = false;
+
+        // Duyệt qua từng thể loại và kiểm tra
+        for (var i = 0; i < categoryElements.size(); i++) {
+            var categoryText = categoryElements.get(i).text().trim();
+            if (excludedCategories[categoryText]) {
+                isForAdults = true;
+                break;
+            }
+        }
+
+        // Nếu truyện nằm trong danh mục cấm, không trả về thông tin và kết thúc hàm
+        if (isForAdults) {
+            return null;
+        }
+
+        // Tiếp tục xử lý nếu truyện phù hợp
+        var author = doc.select("a[href*=/tac-gia/]").first().text();
         return Response.success({
             name: doc.select("title").text().replace(/\s*\|\s*BlogTruyenMoi.Com/, ""),
             cover: doc.select(".thumbnail img").first().attr("src"),

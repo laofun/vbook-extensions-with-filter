@@ -1,12 +1,13 @@
 load('config.js');
 function execute(key, page) {
     if (!page) page = '1';
-
+    let categoryExcluded = excludedIds.toString();
     let response = fetch(BASE_URL + "/timkiem/nangcao/1/0/-1/-1", {
         method: "GET",
         queries: {
             txt: key,
-            p: page
+            p: page,
+            CategoryExcluded: categoryExcluded
         }
     });
     if (response.ok) {
