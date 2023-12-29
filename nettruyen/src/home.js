@@ -1,7 +1,7 @@
 load('config.js');
 function execute() {
     return Response.success([
-        {title: "Mới cập nhật", input: BASE_URL + "/tim-truyen-nang-cao?notgenres="+notgenres, script: "gen.js"},
+        // {title: "Mới cập nhật", input: BASE_URL + "/tim-truyen-nang-cao?notgenres="+notgenres, script: "gen.js"},
         {title: "Thiếu nhi", input: BASE_URL + "/tim-truyen-nang-cao?genres=50&notgenres="+notgenres, script: "gen.js"},
         // {title: "Truyện mới", input: BASE_URL + "/tim-truyen-nang-cao?notgenres="+notgenres+"&status=-1&sort=15", script: "gen.js"},
         // {title: "Top all", input: BASE_URL + "/tim-truyen-nang-cao?notgenres="+notgenres+"&status=-1&sort=10", script: "gen.js"},

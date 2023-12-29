@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Net Truyện (SFW)",
     "author": "Laofun",
-    "version": 2,
+    "version": 3,
     "source": "https://www.nettruyenbing.com",
     "regexp": "(www.)?nettruyen[a-z]*.(com|vn|net)/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang Net Truyện (SFW)",
@@ -12,7 +12,6 @@
   },
   "script": {
     "home": "home.js",
-    "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
