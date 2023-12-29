@@ -35,10 +35,10 @@ function execute(url) {
             detail: detail,
             ongoing: doc.select(".detail-info .status").html().indexOf("Đang tiến hành") >= 0,
             genres: genres,
-            comment: {
-                input: BASE_URL + "/Comic/Services/CommentService.asmx/List?comicId=" + comicId + "&orderBy=0&chapterId=-1&parentId=0&token=" + token,
-                script: "comment.js"
-            },
+            // comment: {
+            //     input: BASE_URL + "/Comic/Services/CommentService.asmx/List?comicId=" + comicId + "&orderBy=0&chapterId=-1&parentId=0&token=" + token,
+            //     script: "comment.js"
+            // },
             host: BASE_URL
         });
     }
