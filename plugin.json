@@ -19,10 +19,10 @@
       "name": "Net Truyện (SFW)",
       "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/plugin.zip",
-      "version": 4,
+      "version": 5,
       "type": "comic",
       "locale": "vi_VN",
-      "source": "https://www.nettruyenbing.com",
+      "source": "https://www.nettruyenclub.com",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/icon.png",
       "description": "Đọc truyện trên trang Net Truyện (SFW)"
     }
