@@ -28,13 +28,15 @@ function execute(url) {
 
         // Tiếp tục xử lý nếu truyện phù hợp
         var author = doc.select("a[href*=/tac-gia/]").first().text();
+        var detail = doc.select(".description").last();
+        detail.select(".like-buttons").remove();
         return Response.success({
             name: doc.select("title").text().replace(/\s*\|\s*BlogTruyenMoi.Com/, ""),
             cover: doc.select(".thumbnail img").first().attr("src"),
             host: BASE_URL,
             author: author,
             description: doc.select(".detail > .content").html(),
-            detail: doc.select(".description").last().html(),
+            detail: detail.html(),
             ongoing: doc.select(".description").last().html().indexOf("Đang tiến hành") >= 0
         });
     }

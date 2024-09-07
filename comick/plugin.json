@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "ComicK",
+    "author": "laofun",
+    "version": 1,
+    "source": "https://comick.io",
+    "regexp": "Regex khớp URL trang truyện",
+    "description": "Fast free reader and a Big database for comics ",
+    "local": "en-En",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

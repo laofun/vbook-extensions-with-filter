@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Net Truyện (SFW)",
     "author": "Laofun",
-    "version": 5,
-    "source": "https://www.nettruyenclub.com",
+    "version": 6,
+    "source": "https://www.nettruyenviet.com",
     "regexp": "(www.)?nettruyen[a-z]*.(com|vn|net)/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang Net Truyện (SFW)",
     "locale": "vi_VN",
@@ -11,7 +11,6 @@
     "type": "comic"
   },
   "script": {
-    "home": "home.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
