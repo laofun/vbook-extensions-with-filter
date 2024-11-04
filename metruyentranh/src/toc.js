@@ -124,7 +124,6 @@ function execute(url) {
             list.push({
                 name: item.text(),
                 url: BASE_URL + item.attr("href"),
-                host: BASE_URL
             });
         });
 
