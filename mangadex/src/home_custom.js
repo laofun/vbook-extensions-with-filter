@@ -16,9 +16,9 @@ function execute(url, page) {
     host: BASE_URL,
   });
   novelList.push({
-    name: "Doremon (1992)",
+    name: "Doremon",
     link: "https://mangadex.org/title/e36da8b0-feca-46dd-9120-d5dc2f3feae8",
-    cover: "https://mangadex.org/covers/e36da8b0-feca-46dd-9120-d5dc2f3feae8/336e7d29-d8dd-4357-b9fb-10b14e2ae933.jpg.512.jpgg",
+    cover: "https://mangadex.org/covers/e36da8b0-feca-46dd-9120-d5dc2f3feae8/336e7d29-d8dd-4357-b9fb-10b14e2ae933.jpg.512.jpg",
     host: BASE_URL,
   });
   novelList.push({

@@ -19,7 +19,7 @@
       "name": "MangaDex (SFW)",
       "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/mangadex/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://mangadex.org",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/mangadex/icon.png",
       "description": "Đọc truyện trên trang mangadex.org",
