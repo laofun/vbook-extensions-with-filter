@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "MangaDex (SFW)",
+    "name": "Metruyentranh (SFW)",
     "author": "Laofun",
-    "version": 2,
-    "source": "https://mangadex.org",
-    "regexp": "",
-    "description": "Đọc truyện trên trang MangaDex",
-    "locale": "global",
+    "version": 1,
+    "source": "https://metruyentranh.pro/truyen-tranh",
+    "regexp": "metruyentranh.pro/truyen-tranh/.*?",
+    "description": "Đọc truyện trên trang Metruyentranh",
+    "local": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },
