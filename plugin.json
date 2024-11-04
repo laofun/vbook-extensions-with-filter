@@ -16,15 +16,15 @@
       "description": "Đọc truyện trên trang Blog Truyện Mới (SFW)"
     },
     {
-      "name": "Net Truyện (SFW)",
+      "name": "MangaDex (SFW)",
       "author": "Laofun",
-      "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/plugin.zip",
-      "version": 5,
+      "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/mangadex/plugin.zip",
+      "version": 1,
+      "source": "https://mangadex.org",
+      "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/mangadex/icon.png",
+      "description": "Đọc truyện trên trang mangadex.org",
       "type": "comic",
-      "locale": "vi_VN",
-      "source": "https://www.nettruyenclub.com",
-      "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/nettruyen/icon.png",
-      "description": "Đọc truyện trên trang Net Truyện (SFW)"
+      "locale": "global"
     }
   ]
 }

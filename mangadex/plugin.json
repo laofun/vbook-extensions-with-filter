@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "name": "MangaDex",
-    "author": "vBook",
+    "name": "MangaDex (SFW)",
+    "author": "Laofun",
     "version": 1,
     "source": "https://mangadex.org",
     "regexp": "mangadex.org/title/.*?",
