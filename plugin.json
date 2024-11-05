@@ -5,17 +5,6 @@
   },
   "data": [
     {
-      "name": "Blog Truyện Mới (SFW)",
-      "author": "Laofun",
-      "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/blogtruyenmoi/plugin.zip",
-      "version": 3,
-      "type": "comic",
-      "locale": "vi_VN",
-      "source": "https://blogtruyenmoi.com",
-      "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/blogtruyenmoi/icon.png",
-      "description": "Đọc truyện trên trang Blog Truyện Mới (SFW)"
-    },
-    {
       "name": "MangaDex (SFW)",
       "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/mangadex/plugin.zip",
@@ -30,7 +19,7 @@
       "name": "Metruyentranh (SFW)",
       "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/metruyentranh/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "https://metruyentranh.pro",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/metruyentranh/icon.png",
       "description": "Đọc truyện trên trang Metruyentranh",
