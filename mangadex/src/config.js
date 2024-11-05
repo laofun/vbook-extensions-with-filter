@@ -1,5 +1,5 @@
 let BASE_URL = 'https://mangadex.org';
-let LANGUAGE = "vi,en,ja-ro,ja";
+let LANGUAGE = "vi,en";
 let FALLBACK_LANGUAGE = "en,ja-ro,ja"
 try {
     if (CONFIG_URL) {

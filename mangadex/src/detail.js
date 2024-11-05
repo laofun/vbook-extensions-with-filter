@@ -1,6 +1,7 @@
 load("config.js");
 
 function execute(url) {
+    console.log(url);
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
 
     let bookId = /title\/([a-f0-9\-]+)/g.exec(url)[1];

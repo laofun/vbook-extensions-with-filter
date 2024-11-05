@@ -4,8 +4,14 @@ function execute(url, page) {
   let novelList = [];
 
   novelList.push({
-    name: "One Piece",
-    link: "https://mangadex.org/title/a1c7c817-4e59-43b7-9365-09675a149a6f",
+    name: "One Piece [VI]",
+    link: "https://mangadex.org/title/a1c7c817-4e59-43b7-9365-09675a149a6f?lang=vi",
+    cover: "https://mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/17f8c157-ae5c-4702-a762-11bc2c8b8c64.jpg.512.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "One Piece [EN]",
+    link: "https://mangadex.org/title/a1c7c817-4e59-43b7-9365-09675a149a6f?lang=en",
     cover: "https://mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/17f8c157-ae5c-4702-a762-11bc2c8b8c64.jpg.512.jpg",
     host: BASE_URL,
   });
@@ -24,6 +30,12 @@ function execute(url, page) {
   novelList.push({
     name: "Dragon Ball (Official Colored)",
     link: "https://mangadex.org/title/af0527c1-8734-4498-b128-7090340bc10d/dragon-ball",
+    cover: "https://mangadex.org/covers/af0527c1-8734-4498-b128-7090340bc10d/74af82cd-d605-4600-a697-64b2cc96d01b.jpg.512.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Dragon Ball (Official Colored)[EN]",
+    link: "https://mangadex.org/title/af0527c1-8734-4498-b128-7090340bc10d/dragon-ball?lang=en",
     cover: "https://mangadex.org/covers/af0527c1-8734-4498-b128-7090340bc10d/74af82cd-d605-4600-a697-64b2cc96d01b.jpg.512.jpg",
     host: BASE_URL,
   });
