@@ -4,8 +4,8 @@ function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let bookId = /title\/([a-f0-9\-]+)/g.exec(url)[1];
     let languages = LANGUAGE;
-    // get lang in url and force se
-    let lang = /lang=([a-z]+)/.exec(url);
+    // get lang in url ex: lang=vi,en
+    let lang = /lang=([a-z,]+)/.exec(url);
     if (lang) {
         languages = lang[1];
     }
