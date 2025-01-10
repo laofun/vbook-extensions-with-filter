@@ -19,12 +19,12 @@
       "name": "TYT Novel",
       "author": "Laofun",
       "path": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/tytnovel/plugin.zip",
-      "version": 2,
+      "version": 1,
       "source": "https://tytnovel.xyz",
       "icon": "https://raw.githubusercontent.com/laofun/vbook-extensions-with-filter/master/tytnovel/icon.png",
       "description": "Đọc truyện trên trang tytnovel",
       "type": "novel",
       "locale": "vi_VN"
-      },
+    }
   ]
 }
