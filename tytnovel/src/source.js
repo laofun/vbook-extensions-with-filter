@@ -6,9 +6,9 @@ function execute(cat, page) {
         headers: {
             'client-id': 'simbo',
             'client-language': 'en',
-            'client-platform': 'android',
-            'client-token': 'tyt',
-            'client-version': '55'
+            'client-platform': 'ios',
+            'client-token': 'simbo',
+            'client-version': BASE_VERSION,
         }
     });
     if (response.ok) {
