@@ -2,7 +2,12 @@ load("config.js");
 function execute(url, page) {
   let next = null;
   let novelList = [];
-
+  novelList.push({
+    name: "Thanh Gươm Diệt Quỷ",
+    link: "https://metruyentranh.pro/truyen-tranh/thanh-guom-diet-quy-30327",
+    cover: "https://cdn.metruyentranh.pro/125231/thanh-guom-diet-quy.jpg",
+    host: BASE_URL,
+  });
   novelList.push({
     name: "Thám Tử Conan",
     link: "https://metruyentranh.pro/truyen-tranh/tham-tu-conan-3378",
