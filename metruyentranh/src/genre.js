@@ -1,2 +1,3 @@
 function execute() {
+    return null;
 }

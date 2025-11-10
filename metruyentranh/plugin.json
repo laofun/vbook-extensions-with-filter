@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Metruyentranh (SFW)",
     "author": "Laofun",
-    "version": 5,
+    "version": 6,
     "source": "https://metruyentranh.pro",
     "regexp": "metruyentranh.pro/truyen-tranh/.*?",
     "description": "Đọc truyện trên trang Metruyentranh",

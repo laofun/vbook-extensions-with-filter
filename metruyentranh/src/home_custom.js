@@ -2,17 +2,18 @@ load("config.js");
 function execute(url, page) {
   let next = null;
   let novelList = [];
-  novelList.push({
-    name: "Thanh Gươm Diệt Quỷ",
-    link: "https://metruyentranh.pro/truyen-tranh/thanh-guom-diet-quy-30327",
-    cover: "https://cdn.metruyentranh.pro/125231/thanh-guom-diet-quy.jpg",
-    host: BASE_URL,
-  });
+  
   novelList.push({
     name: "Thám Tử Conan",
     link: "https://metruyentranh.pro/truyen-tranh/tham-tu-conan-3378",
     cover: "https://cdn.metruyentranh.pro/46394/tham-tu-conan-7281.jpg",
     host: BASE_URL,
+  });
+  novelList.push({
+    name: "Thanh Gươm Diệt Quỷ",
+    link: "https://metruyentranh.pro/truyen-tranh/thanh-guom-diet-quy-30327",
+    cover: "https://cdn.metruyentranh.pro/125231/thanh-guom-diet-quy.jpg",
+    host: BASE_URL
   });
   novelList.push({
     name: "Yu-Gi-Oh! Vua Trò Chơi",
@@ -98,7 +99,53 @@ function execute(url, page) {
     cover: "https://cdn.metruyentranh.pro/66770/o-long-vien-linh-vat-song.jpg",
     host: BASE_URL,
   });
-
-  
+  novelList.push({
+    name: "Lucky Luke",
+    link: "https://metruyentranh.pro/truyen-tranh/lucky-luke-2152",
+    cover: "https://cdn.metruyentranh.pro/30950/lucky-luke.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Thần Đồng Đất Việt",
+    link: "https://metruyentranh.pro/truyen-tranh/than-dong-dat-viet-687",
+    cover: "https://cdn.metruyentranh.pro/11080/than-dong-dat-viet.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Dragon Quest - Dấu Ấn Rồng Thiêng",
+    link: "https://metruyentranh.pro/truyen-tranh/dragon-quest-dau-an-rong-thieng-16510",
+    cover: "https://cdn.metruyentranh.pro/77900/dragon-quest-dau-an-rong-thieng.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Thám Tử Kindaichi",
+    link: "https://metruyentranh.pro/truyen-tranh/tham-tu-kindaichi-860",
+    cover: "https://cdn.metruyentranh.pro/13560/tham-tu-kindaichi.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Hunter x Hunter (Thế Giới Thợ Săn)",
+    link: "https://metruyentranh.pro/truyen-tranh/the-gioi-tho-san-17877",
+    cover: "https://cdn.metruyentranh.pro/92300/the-gioi-tho-san.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "The First Slam Dunk (Cao Thủ Bóng Rổ)",
+    link: "https://metruyentranh.pro/truyen-tranh/cao-thu-bong-ro-remake--17603",
+    cover: "https://cdn.metruyentranh.pro/89480/cao-thu-bong-ro-remake-7152.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Crayon Shin-Chan Cậu Bé Bút Chì",
+    link: "https://metruyentranh.pro/truyen-tranh/crayon-shin-chan-cau-be-but-chi-13681",
+    cover: "https://cdn.metruyentranh.pro/51660/crayon-shin-chan-cau-be-but-chi.jpg",
+    host: BASE_URL,
+  });
+  novelList.push({
+    name: "Rurouni Kenshin (Lãng khách Kenshin)",
+    link: "https://metruyentranh.pro/truyen-tranh/lang-khach-kenshin-ban-net-2019-142672",
+    cover: "https://cdn.metruyentranh.pro/data2/6577c63e10dc9c0a7e2dad2f/lang-khach-kenshin-ban-net-2019-thumb.jpg",
+    host: BASE_URL,
+  });
   return Response.success(novelList, next);
 }
